@@ -20,7 +20,7 @@ import Header from "./components/Header.vue";
 
 .box2 {
   position: fixed;
-  top: 45%;
+  top: 42%;
   right: 0.5%;
   z-index: 9;
 }
