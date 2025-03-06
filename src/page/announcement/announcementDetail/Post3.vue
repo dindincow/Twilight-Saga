@@ -1,18 +1,14 @@
 <template>
   <div class="announcement-detail-page">
     <div class="title">
-      <h1>📢【開服活動】??</h1>
-      <p>2025/03/02</p>
+      <h1>📢【開服活動】03-15~03-22 儲值元寶加倍送✨</h1>
+      <p>2025/03/10</p>
     </div>
 
     <div class="content">
-      ????
-      <!-- <p>各位勇士們，準備好迎接全新的冒險了嗎？《天堂》將於 2025/03/10 晚上8點 正式開服！⚔️🏰</p>
-      <p>一場全新的戰爭即將展開，無盡的挑戰與豐厚獎勵等你來征服！</p>
-      <p>✨ 邀請你的戰友一同加入，創造屬於你的傳奇時刻！💪</p>
-      <br />
-      <p class="text-sky-300">📅 開服時間：2025/03/10 晚上8點</p>
-      <p class="text-sky-300">🎁 開服好禮，等你來拿！快+客服line唷</p> -->
+      <p>🎉 3/15 - 3/22 限時活動開跑！ 活動期間內儲值，即可享 <span class="text-red-400 font-bold">元寶 100% </span> 加倍回饋！</p>
+      <p class="desc">🔥 例如：玩家小明儲值 1000 元寶，將額外獲得 1000 元寶，但 加贈部分不會計入累積儲值，額外元寶將由 客服發送！💎</p>
+      <p>⚡ 機會難得，快來參戰！ 儲值越多，戰力飆升越快，趕緊把握最佳時機！ 🚀</p>
     </div>
   </div>
 </template>
@@ -34,10 +30,12 @@
 .content {
   color: #d9d9d9;
   margin-top: 20px;
-
   line-height: 36px;
 }
 .content p {
-  font-size: 20px;
+  font-size: 18px;
+}
+.content p.desc {
+  font-size: 18px;
 }
 </style>
