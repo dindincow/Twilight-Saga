@@ -9,23 +9,29 @@
     </div>
     <!-- 置頂公告-->
     <div class="top-post">
+      <router-link to="/terms">
+        <div class="row text-pink">
+          <div class="col">遊戲規章</div>
+          <div class="col">2025/02/20</div>
+        </div>
+      </router-link>
       <router-link to="/disclaimer">
         <div class="row text-blue">
           <div class="col">免責聲明</div>
-          <div class="col">2025/02/05</div>
+          <div class="col">2025/02/20</div>
         </div>
       </router-link>
       <router-link to="/sponsor/sponsorDeclar">
         <div class="row text-green">
           <div class="col">贊助須知</div>
-          <div class="col">2025/02/05</div>
+          <div class="col">2025/02/20</div>
         </div>
       </router-link>
     </div>
     <!-- 變動公告-->
     <div class="announcement-data">
       <div class="row" @click="gotoDetail('/announcement/post2')">
-        <div class="col"><span class="announcement">開服公告</span> - 2025/03/10 晚上8點正式開服</div>
+        <div class="col"><span class="announcement">開服公告</span> - 2025/03/15 晚上8點正式開服</div>
         <div class="col">2025/03/02</div>
       </div>
       <div class="row" @click="gotoDetail('/announcement/post3')">
@@ -111,6 +117,9 @@ const gotoDetail = (url) => {
 }
 .announcement-data .row:hover {
   color: #e7c60b;
+}
+.text-pink {
+  color: rgb(197, 112, 171);
 }
 .text-blue {
   color: rgb(92, 175, 239);

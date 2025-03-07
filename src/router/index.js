@@ -5,6 +5,7 @@ import About from "../page/About.vue";
 /** 遊戲公告 **/
 import Announcement from "../page/announcement/index.vue";
 import Disclaimer from "../page/announcement/Disclaimer.vue";
+import Terms from "../page/announcement/Terms.vue";
 // 公告內容
 import Post1 from "../page/announcement/announcementDetail/Post1.vue";
 import Post2 from "../page/announcement/announcementDetail/Post2.vue";
@@ -85,6 +86,8 @@ const routes = [
   /* 免責聲明 */
   { path: "/disclaimer", component: Disclaimer },
 
+  /* 遊戲規章 */
+  { path: "/terms", component: Terms },
   /* 贊助聲明 */
   {
     path: "/sponsor",
