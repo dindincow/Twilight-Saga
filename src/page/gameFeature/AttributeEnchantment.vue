@@ -4,8 +4,8 @@
       <h2 class="text-red-500 font-bold">【火屬性附魔捲】</h2>
       <p class="text-red-300">火之 - 機率1% 暴擊傷害1.1</p>
       <p class="text-red-300">烈焰 - 機率2% 暴擊傷害1.2</p>
-      <p class="text-red-300">火靈 - 機率2% 暴擊傷害1.3</p>
-      <p class="text-red-300">赤炎 - 機率2% 暴擊傷害1.4</p>
+      <p class="text-red-300">火靈 - 機率3% 暴擊傷害1.3</p>
+      <p class="text-red-300">赤炎 - 機率4% 暴擊傷害1.4</p>
       <p class="text-red-300">帕格里奧 - 機率5% 暴擊傷害1.5</p>
     </div>
     <div class="row">

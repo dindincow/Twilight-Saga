@@ -8,7 +8,8 @@
     <div class="content">
       <h2 class="text-sky-300 text-2xl">📢【加賴拿好禮】</h2>
       <p>立即加入官方Line，專屬豪禮等你來領！✨ 機會難得，千萬別錯過！</p>
-      <p>✅ 加賴方式：[@你的Line帳號]</p>
+      <p>✅ 加賴方式：@880gmrvs</p>
+      <div><img src="../../../assets/qrcode.png" /></div>
 
       <div class="box">
         <h2 class="text-orange-300 text-xl">🎁 禮包內容:</h2>
