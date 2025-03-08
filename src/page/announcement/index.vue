@@ -35,7 +35,7 @@
         <div class="col">2025/03/02</div>
       </div>
       <div class="row" @click="gotoDetail('/announcement/post3')">
-        <div class="col"><span class="limit-event">限時活動</span> - 慶開服，開服元寶雙倍送!!</div>
+        <div class="col"><span class="limit-event">限時活動</span> - 慶開服，開服元寶金幣雙倍送!!</div>
         <div class="col">2025/03/02</div>
       </div>
       <div class="row" @click="gotoDetail('/announcement/post1')">
