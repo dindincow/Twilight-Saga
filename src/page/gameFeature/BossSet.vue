@@ -27,12 +27,12 @@
     </div>
 
     <div class="row">
-      <h3 class="text-blue-500 font-bold text-xl">寒冰套裝 - 【寒冰套裝 + 石製手套 】</h3>
+      <h3 class="text-blue-500 font-bold text-xl">寒冰套裝 - 【寒冰頭盔 + 寒冰盔甲 + 寒冰長靴 + 石製手套 】</h3>
       <p class="text-blue-300">精神+3 ,體質+3 ,防禦+10 ,血+300 ,魔+300 ,近遠攻擊+5 ,魔攻+3 ,魔防+20 ,水屬性+30%</p>
     </div>
 
     <div class="row">
-      <h3 class="text-orange-500 font-bold text-xl">冰之女皇套裝 - 【冰之女皇套裝 + 魔力的手套 / 光之魔力的手套 】</h3>
+      <h3 class="text-orange-500 font-bold text-xl">冰之女皇套裝 - 【冰之女皇頭飾 + 冰之女皇禮服 + 魔力的手套 / 光之魔力的手套 + 冰之女皇涼鞋 】</h3>
       <p class="text-orange-300">力量+3 ,魅力+5 ,防禦+10 ,血+100 ,魔+100 ,近命中+10 ,魔攻+5 ,回魔+10 ,水屬性+30%</p>
     </div>
   </div>
