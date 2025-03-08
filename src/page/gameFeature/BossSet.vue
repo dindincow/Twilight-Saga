@@ -32,7 +32,7 @@
     </div>
 
     <div class="row">
-      <h3 class="text-orange-500 font-bold text-xl">冰之女皇套裝 - 【冰之女皇頭飾 + 冰之女皇禮服 + 魔力的手套 / 光之魔力的手套 + 冰之女皇涼鞋 】</h3>
+      <h3 class="text-orange-500 font-bold text-xl">冰之女皇套裝 - 【冰之女皇頭飾 + 冰之女皇禮服 + 冰之女皇涼鞋 + 魔力的手套 / 光之魔力的手套 】</h3>
       <p class="text-orange-300">力量+3 ,魅力+5 ,防禦+10 ,血+100 ,魔+100 ,近命中+10 ,魔攻+5 ,回魔+10 ,水屬性+30%</p>
     </div>
   </div>
