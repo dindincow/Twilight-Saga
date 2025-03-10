@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <h2>【祭司娃娃：鐮刀死神】👿⚔️ 無法與經驗娃娃共存</h2>
-    <p>加入官方line就直接送唷!</p>
+    <p>贊助滿3000就可獲得唷!</p>
     <img src="../../assets/r1.png" />
   </div>
 </template>
