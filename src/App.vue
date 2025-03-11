@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <div class="box1"><img src="./assets/sponser1.png" /></div>
+    <a class="box1" target="_blank" href="https://pay.maple-moon.tw/order/249t38q"><img src="./assets/sponser1.png" /></a>
     <div class="box2"><img src="./assets/cscontact.png" /></div>
     <Header></Header>
     <router-view></router-view>
@@ -12,6 +12,7 @@ import Header from "./components/Header.vue";
 
 <style lang="css" scoped>
 .box1 {
+  display: block;
   position: fixed;
   top: 45%;
   left: 0.5%;
