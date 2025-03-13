@@ -38,6 +38,14 @@
         <div class="col"><span class="limit-event">限時活動</span> - 慶開服，開服元寶金幣雙倍送!!</div>
         <div class="col">2025/03/02</div>
       </div>
+      <div class="row" @click="gotoDetail('/announcement/post4')">
+        <div class="col"><span class="event">永久活動</span> - 每週日世界王，掉寶爆多，機會不容錯過！</div>
+        <div class="col">2025/03/14</div>
+      </div>
+      <div class="row" @click="gotoDetail('/gameFeature/royalClanPack')">
+        <div class="col"><span class="event">永久活動</span> - 創王族拿好禮!</div>
+        <div class="col">2025/03/14</div>
+      </div>
       <div class="row" @click="gotoDetail('/announcement/post1')">
         <div class="col"><span class="event">永久活動</span> - 加 line 拿好禮</div>
         <div class="col">2025/03/02</div>
