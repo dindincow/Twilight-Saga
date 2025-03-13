@@ -1,11 +1,11 @@
 <template>
   <p class="text-2xl">無法強化，可以上祝福和屬性</p>
   <div class="content flex flex-wrap">
-    <!-- <img src="../../assets/pa01.png" />
+    <img src="../../assets/pa01.png" />
     <img src="../../assets/pa02.png" />
     <img src="../../assets/pa03.png" />
     <img src="../../assets/pa04.png" />
-    <img src="../../assets/pa05.png" /> -->
+    <img src="../../assets/pa05.png" />
   </div>
 </template>
 <script setup></script>
