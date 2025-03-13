@@ -8,6 +8,9 @@
       <router-link to="/announcement/post3">
         <div class="content"><span class="limit-event">限時活動</span> 慶開服，開服元寶金幣雙倍送!!</div>
       </router-link>
+      <router-link to="/gameFeature/royalClanPack">
+        <div class="content"><span class="event">永久活動</span> 創王族拿好禮!</div>
+      </router-link>
       <router-link to="/announcement/post1">
         <div class="content"><span class="event">永久活動</span> 加 line 拿好禮</div>
       </router-link>
