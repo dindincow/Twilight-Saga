@@ -35,6 +35,7 @@ import AutoPlay from "../page/gameFeature/AutoPlay.vue"; // 限時介紹
 import KillSystem from "../page/gameFeature/KillSystem.vue"; //眾生平等殺人系統
 import SellNpc from "../page/gameFeature/SellNpc.vue"; // 寄賣npc
 import SpecialMap from "../page/gameFeature/SpecialMap.vue"; // 特殊地圖
+import SkillMake from "../page/gameFeature/SkillMake.vue"; // 技能製作
 
 /** 武器介紹 **/
 import Weapon from "../page/weapon/index.vue";
@@ -132,6 +133,7 @@ const routes = [
       { path: "killSystem", component: KillSystem },
       { path: "sellNpc", component: SellNpc },
       { path: "specialMap", component: SpecialMap },
+      { path: "skillMake", component: SkillMake },
     ],
   },
 

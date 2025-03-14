@@ -16,6 +16,7 @@
       <router-link to="/gameFeature/killSystem" :class="[tabIndex === 11 ? 'active' : '']" @click="changeMenu(11)">眾生平等殺戮系統</router-link>
       <router-link to="/gameFeature/SellNpc" :class="[tabIndex === 12 ? 'active' : '']" @click="changeMenu(12)">寄售npc</router-link>
       <router-link to="/gameFeature/SpecialMap" :class="[tabIndex === 13 ? 'active' : '']" @click="changeMenu(13)">特殊地圖</router-link>
+      <router-link to="/gameFeature/SkillMake" :class="[tabIndex === 14 ? 'active' : '']" @click="changeMenu(14)">技能製作</router-link>
     </div>
     <div class="right">
       <h1>{{ title }}</h1>
@@ -47,6 +48,7 @@ const tabTitle = [
   "眾生平等殺戮系統",
   "寄售npc",
   "特殊地圖",
+  "技能製作",
 ];
 const tabIndex = ref(0);
 const title = computed(() => tabTitle[tabIndex.value]);
@@ -67,6 +69,7 @@ const pathMap = {
   "/gameFeature/killSystem": 11,
   "/gameFeature/SellNpc": 12,
   "/gameFeature/SpecialMap": 13,
+  "/gameFeature/SkillMake": 14,
 };
 
 watch(
