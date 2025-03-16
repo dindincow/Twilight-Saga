@@ -31,7 +31,7 @@
     <!-- 變動公告-->
     <div class="announcement-data">
       <div class="row" @click="gotoDetail('/announcement/post5')">
-        <div class="col"><span class="update">遊戲更新</span> - 2025/03/16 提高武防捲掉落率，縮短虎男出身時間!</div>
+        <div class="col"><span class="update">遊戲更新</span> - 2025/03/16 更新日誌!</div>
         <div class="col">2025/03/16</div>
       </div>
       <div class="row" @click="gotoDetail('/announcement/post2')">

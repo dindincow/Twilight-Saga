@@ -1,7 +1,7 @@
 <template>
   <div class="announcement-detail-page">
     <div class="title">
-      <h1>📢【遊戲更新】提高武防捲掉落率，縮短虎男出身時間!</h1>
+      <h1>📢【遊戲更新】更新日誌</h1>
       <p>2025/03/16</p>
     </div>
 
@@ -9,6 +9,7 @@
       <p>1. 提高武防捲掉落率</p>
       <p>2. 縮短寵物虎男出身時間!</p>
       <p>3. 瑪那魔杖下調45等贈送</p>
+      <p>4. 提高每日任務獎勵</p>
     </div>
   </div>
 </template>
