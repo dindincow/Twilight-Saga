@@ -30,6 +30,10 @@
     </div>
     <!-- 變動公告-->
     <div class="announcement-data">
+      <div class="row" @click="gotoDetail('/announcement/post5')">
+        <div class="col"><span class="update">遊戲更新</span> - 2025/03/16 提高武防捲掉落率，縮短虎男出身時間!</div>
+        <div class="col">2025/03/16</div>
+      </div>
       <div class="row" @click="gotoDetail('/announcement/post2')">
         <div class="col"><span class="announcement">開服公告</span> - 2025/03/15 晚上8點正式開服</div>
         <div class="col">2025/03/02</div>

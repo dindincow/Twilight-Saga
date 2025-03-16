@@ -2,6 +2,9 @@
   <div class="bulletin">
     <div class="left">
       <div class="bulletin-title">最新公告</div>
+      <router-link to="/announcement/post5">
+        <div class="content"><span class="update">遊戲更新</span> 2025/03/16 提高武防捲掉落率，縮短虎男出身時間!</div>
+      </router-link>
       <router-link to="/announcement/post2">
         <div class="content"><span class="announcement">開服公告</span> 2025/03/15 晚上8點正式開服</div>
       </router-link>
@@ -42,6 +45,7 @@ const videoUrl = ref("https://www.youtube.com/embed/vSdGfDtgJTM");
   background: #232323;
   border: 1px solid #a9793b;
   width: 58%;
+  overflow-y: scroll;
 }
 .bulletin .right {
   background: #232323;
