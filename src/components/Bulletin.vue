@@ -2,6 +2,9 @@
   <div class="bulletin">
     <div class="left">
       <div class="bulletin-title">最新公告</div>
+      <router-link to="/announcement/post6">
+        <div class="content"><span class="event">永久活動</span>🔥 抖音分享案讚留言送好禮！</div>
+      </router-link>
       <router-link to="/announcement/post5">
         <div class="content"><span class="update">遊戲更新</span> 2025/03/16 更新日誌!</div>
       </router-link>
