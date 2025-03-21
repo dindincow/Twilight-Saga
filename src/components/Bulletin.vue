@@ -2,8 +2,14 @@
   <div class="bulletin">
     <div class="left">
       <div class="bulletin-title">最新公告</div>
+      <router-link to="/announcement/post9">
+        <div class="content"><span class="announcement">開服公告</span> 2025/03/22 暮光之城-血服~晚上8點正式開服</div>
+      </router-link>
       <router-link to="/announcement/post6">
         <div class="content"><span class="event">永久活動</span>🔥 抖音分享案讚留言送好禮！</div>
+      </router-link>
+      <router-link to="/announcement/post8">
+        <div class="content"><span class="update">遊戲更新</span> 2025/03/22 更新日誌!</div>
       </router-link>
       <router-link to="/announcement/post7">
         <div class="content"><span class="update">遊戲更新</span> 2025/03/21 更新日誌!</div>
