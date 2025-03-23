@@ -11,6 +11,9 @@
         <h2 class="text-orange-300 text-2xl font-bold">✨【首儲3000】✨</h2>
         <p>終極體力恢復劑(永久)扣100天幣，龍之珍珠(永久)，祭司娃娃：鐮刀死神，戰鬥藥劑(永久)</p>
         <p>ps.(如有已經購買玩家，會由客服補充發送)</p>
+
+        <br />
+        <p class="desc text-sky-500 text-2xl">ps. 暮光之城分服 ~ 開單請敲課服！🎉</p>
       </div>
     </div>
   </div>
