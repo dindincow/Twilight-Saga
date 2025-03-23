@@ -36,8 +36,12 @@
       </div>
 
       <div class="row" @click="gotoDetail('/announcement/post9')">
-        <div class="col"><span class="announcement">開服公告</span> - 2025/03/22 暮光之城-血服~晚上8點正式開服</div>
+        <div class="col"><span class="announcement">開服公告</span> - 2025/03/22 🔥 暮光之城-血服~晚上8點正式開服</div>
         <div class="col">2025/03/02</div>
+      </div>
+      <div class="row" @click="gotoDetail('/announcement/post10')">
+        <div class="col"><span class="update">遊戲更新</span> - 2025/03/24 更新日誌!</div>
+        <div class="col">2025/03/22</div>
       </div>
 
       <div class="row" @click="gotoDetail('/announcement/post8')">
