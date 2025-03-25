@@ -60,6 +60,7 @@ import SimpleRing from "../page/armor/SimpleRing.vue"; // 一般戒指
 import SnapeRing from "../page/armor/SnapeRing.vue"; // 史奈普戒指
 import AncientEquipment from "../page/armor/AncientEquipment.vue"; // 古老裝備
 import Tshirt from "../page/armor/Tshirt.vue"; // 古老裝備
+import PandoraArmor from "../page/armor/Pandora.vue";
 
 /** 道具介紹 **/
 import Object from "../page/object/index.vue";
@@ -174,6 +175,7 @@ const routes = [
       { path: "tshirt", component: Tshirt },
       { path: "snapeRing", component: SnapeRing },
       { path: "ancientEquipment", component: AncientEquipment },
+      { path: "pandoraArmor", component: PandoraArmor },
     ],
   },
 
