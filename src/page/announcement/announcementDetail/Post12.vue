@@ -1,24 +1,16 @@
 <template>
   <div class="announcement-detail-page">
     <div class="title">
-      <h1>2025/03/25 更新日誌!</h1>
-      <p>2025/03/25</p>
+      <h1>2025/03/27 更新日誌!</h1>
+      <p>2025/03/27</p>
     </div>
     <div class="content">
-      <p>2025/03/25 維修後更新:</p>
+      <p>2025/03/27 維修後更新:</p>
       <div>
-        <h2>1.【 FB 推廣活動 】</h2>
-        <a class="linkfb" target="_blank" href="https://www.facebook.com/profile.php?id=61574203784915">FB 連結網址</a>
-
-        <p>
-          每日推廣需推廣5社團，並跟客服回報。會贈送每日推廣寶箱<br />寶箱內容有"<span class="text-amber-500"> 地圖商城入場卷A(炎魔營，限時1H) </span
-          >"和"<span class="text-amber-500"> 100鑽石 </span>"
-        </p>
-      </div>
-      <div>
-        <h2>2.【 新增包月禮包 】(不得與其他活動並用，每個帳號限購1次，開完才再可購買)</h2>
-        <p>新增商城地圖包月箱(30日),可開出"<span class="text-amber-500"> 商城地圖入場卷B(火焰營，限時2H) </span></p>
-        <p>ps. 購買請敲客服~</p>
+        <h2>1.【鑽石商城新增30日古代終極體力恢復劑 】</h2>
+        <h2>2.【鑽石商城新增耳環欄位開通卡 】</h2>
+        <h2>3.【元寶商城新增獵影之痕強化捲軸，每強化1次扣1萬天幣 】</h2>
+        <h2>4.【調整獵影之痕徽章，可直接對獵影之痕t恤強化，強化機率為元寶商城3/1，每次強化扣20000天幣 】</h2>
       </div>
     </div>
   </div>
@@ -52,7 +44,7 @@
 }
 h2 {
   padding: 10px 0;
-  font-size: 26px;
+  font-size: 20px;
   color: #00b6ff;
   font-weight: bold;
 }

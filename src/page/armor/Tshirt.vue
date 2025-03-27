@@ -1,7 +1,18 @@
 <template>
-  <div class="content flex w-full">
+  <div class="content w-full">
     <!-- <button class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">按鈕</button> -->
 
+    <h2 class="text-blue-300 text-xl">獵影之痕強化捲軸 跟 獵影之痕徽章，這兩種道具皆為 強化「獵影之痕T」 專用道具</h2>
+    <br />
+    <h2 class="text-orange-300 text-2xl font-bold">✨【獵影之痕強化捲軸（元寶商城）】✨</h2>
+    <p>強化 1 次消耗 10,000 天幣</p>
+    <br />
+    <h2 class="text-orange-300 text-2xl font-bold">✨【 獵影之痕徽章（夢幻之島）】✨</h2>
+    <p>強化 1 次消耗 20,000 天幣</p>
+    <p>強化機率為 1/3（33.3%）</p>
+    <br />
+    <p class="text-green-300">2者強化，失敗部會消失，也部會退皆</p>
+    <br />
     <table class="w-full">
       <thead>
         <tr>
