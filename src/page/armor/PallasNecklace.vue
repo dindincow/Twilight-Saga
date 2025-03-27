@@ -1,14 +1,24 @@
 <template>
-  <div class="content flex w-full">
+  <div class="content w-full">
     <!-- <button class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">按鈕</button> -->
-
+    <h2 class="text-blue-300 text-xl">帕拉斯項鍊強化捲軸 跟 強化飾品寶石，這兩種道具皆為 強化「帕拉斯項鍊」 專用道具</h2>
+    <br />
+    <h2 class="text-orange-300 text-2xl font-bold">✨【帕拉斯項鍊強化捲軸（元寶商城）】✨</h2>
+    <p>強化不扣天幣</p>
+    <br />
+    <h2 class="text-orange-300 text-2xl font-bold">✨【 強化飾品寶石（奧塔70f-100f）】✨</h2>
+    <p>強化 1 次消耗 20,000 天幣</p>
+    <p>強化機率為 1/3（33.3%）</p>
+    <p>樓層越高掉落率越高</p>
+    <p class="text-green-300">2者強化，失敗部會消失，也部會退皆</p>
+    <br />
     <table class="w-full">
       <thead>
         <tr>
           <th class="px-4 py-2 text-left">道具名稱</th>
           <th class="px-4 py-2 text-left">能力</th>
 
-          <th class="px-4 py-2 text-left">獲取</th>
+          <th class="px-4 py-2 text-left w-[90px]">獲取</th>
         </tr>
       </thead>
       <tbody class="divide-y">
@@ -45,7 +55,7 @@ const data = [
       "【 +8 】- 防禦+4，力量+2，體力上限+100，近距離命中+2，近距離攻擊+4",
     ],
     job: "全職",
-    get: "商城",
+    get: "商城/任務",
   },
   {
     img: "p5.png",
@@ -63,7 +73,7 @@ const data = [
       "【 +8 】- 防禦+4，力量+2，體力上限+50，魔力上限+50，遠距離命中+2，遠距離攻擊+4",
     ],
     job: "全職",
-    get: "商城",
+    get: "商城/任務",
   },
   {
     img: "p6.png",
@@ -81,7 +91,7 @@ const data = [
       "【 +8 】- 防禦+4，智力+1，體力上限+50，魔力上限+50，魔攻+4",
     ],
     job: "全職",
-    get: "商城",
+    get: "商城/任務",
   },
 ];
 </script>

@@ -19,6 +19,7 @@ import Post9 from "../page/announcement/announcementDetail/Post9.vue";
 import Post10 from "../page/announcement/announcementDetail/Post10.vue";
 import Post11 from "../page/announcement/announcementDetail/Post11.vue";
 import Post12 from "../page/announcement/announcementDetail/Post12.vue";
+import Post13 from "../page/announcement/announcementDetail/Post13.vue";
 
 /** 遊戲設定 **/
 import GameSetting from "../page/gameSetting/index.vue";
@@ -103,6 +104,7 @@ const routes = [
   { path: "/announcement/post10", component: Post10 }, // 開服公告
   { path: "/announcement/post11", component: Post11 }, // 開服公告
   { path: "/announcement/post12", component: Post12 }, // 開服公告
+  { path: "/announcement/post13", component: Post13 }, // 開服公告
 
   /* 免責聲明 */
   { path: "/disclaimer", component: Disclaimer },
