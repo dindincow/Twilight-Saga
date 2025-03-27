@@ -198,7 +198,7 @@ const routes = [
       { path: "makePanacea", component: MakePanacea },
       { path: "bossRadar", component: BossRadar },
       { path: "onlineEmblem", component: OnlineEmblem },
-      { path: "tShirtBox", component: TShirtBox },
+      // { path: "tShirtBox", component: TShirtBox },
     ],
   },
 

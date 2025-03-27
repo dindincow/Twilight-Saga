@@ -1,7 +1,15 @@
 <template>
   <div class="content">
     <!-- <button class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">按鈕</button> -->
-    <h2>獲取方式:商城 ，需用娃娃成長藥劑升級</h2>
+    <h2 class="text-lg">魔法娃娃獲取方式：可透過商城或任務商城獲得。</h2>
+    <h2 class="text-lg">魔法娃娃需使用「娃娃成長藥劑」進行升級。</h2>
+    <h2>娃娃成長藥劑獲取方式：</h2>
+    <ul>
+      <li>商城購買</li>
+      <li>推廣活動獎勵</li>
+      <li>參與推廣活動可獲得「商城入場券」，進入特定地圖 (地圖A) 狩獵怪物，即可獲取娃娃成長藥劑。</li>
+    </ul>
+    <br />
     <table class="w-full">
       <thead>
         <tr>
@@ -107,7 +115,15 @@ td:nth-child(1) {
 
 h2 {
   font-size: 20px;
-  color: orange;
+  color: rgb(96, 252, 255);
   margin-bottom: 10px;
+}
+ul {
+  padding-left: 30px;
+  color: antiquewhite;
+}
+
+li {
+  list-style-type: disc;
 }
 </style>
