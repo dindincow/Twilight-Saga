@@ -2,6 +2,8 @@
   <div class="content">
     <!-- 紅變 -->
     <h1 class="text-red-500">英雄變身</h1>
+    <p class="text-blue-300 qq">軍團長勳章，可強化"英雄變身"，強化成功可轉換成軍團長艾克斯特，此變身為傳說變身(無法交易)</p>
+    <img src="/qq.gif" width="150px" />
     <p class="text-red-300">HP+50, MP+50, 狩獵經驗+5%, 攻擊+1, 命中+1</p>
     <div class="flex flex-wrap box">
       <div class="item">
@@ -221,5 +223,8 @@ p {
 }
 .box {
   margin: 0px 0px 20px 0px;
+}
+.qq {
+  font-size: 20px;
 }
 </style>
