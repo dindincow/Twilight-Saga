@@ -18,9 +18,9 @@
       <router-link to="/announcement/post11">
         <div class="content"><span class="update">遊戲更新</span> 2025/03/25 更新日誌!</div>
       </router-link>
-      <router-link to="/announcement/post9">
+      <!-- <router-link to="/announcement/post9">
         <div class="content"><span class="announcement">開服公告</span>2025/03/22 暮光之城-血服~晚上8點正式開服</div>
-      </router-link>
+      </router-link> -->
       <router-link to="/announcement/post10">
         <div class="content"><span class="update">遊戲更新</span> 2025/03/24 更新日誌!</div>
       </router-link>
@@ -36,9 +36,9 @@
       <router-link to="/announcement/post2">
         <div class="content"><span class="announcement">開服公告</span> 2025/03/15 晚上8點正式開服</div>
       </router-link>
-      <router-link to="/announcement/post3">
+      <!-- <router-link to="/announcement/post3">
         <div class="content"><span class="limit-event">限時活動</span> 慶開服，開服元寶金幣雙倍送!!</div>
-      </router-link>
+      </router-link> -->
       <router-link to="/announcement/post4">
         <div class="content"><span class="event">永久活動</span> 每週日世界王，掉寶爆多，機會不容錯過！</div>
       </router-link>

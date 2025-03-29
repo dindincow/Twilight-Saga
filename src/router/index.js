@@ -95,13 +95,13 @@ const routes = [
   { path: "/announcement", component: Announcement },
   { path: "/announcement/post1", component: Post1 }, // 加賴
   { path: "/announcement/post2", component: Post2 }, // 開服公告
-  { path: "/announcement/post3", component: Post3 }, // 開服公告
+  // { path: "/announcement/post3", component: Post3 }, // 開服公告
   { path: "/announcement/post4", component: Post4 }, // 開服公告
   { path: "/announcement/post5", component: Post5 }, // 開服公告
   { path: "/announcement/post6", component: Post6 }, // 開服公告
   { path: "/announcement/post7", component: Post7 }, // 開服公告
   { path: "/announcement/post8", component: Post8 }, // 開服公告
-  { path: "/announcement/post9", component: Post9 }, // 開服公告
+  // { path: "/announcement/post9", component: Post9 }, // 開服公告
   { path: "/announcement/post10", component: Post10 }, // 開服公告
   { path: "/announcement/post11", component: Post11 }, // 開服公告
   { path: "/announcement/post12", component: Post12 }, // 開服公告
