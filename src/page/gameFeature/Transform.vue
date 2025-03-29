@@ -47,7 +47,7 @@
     <!-- 紫變 -->
     <h1 class="text-purple-500">英雄變身</h1>
     <p class="text-purple-300">HP+150, MP+100, 近/遠傷害+3, 近/遠距離命中+3, 魔攻+3, 傷害減免+3, 狩獵經驗+20%</p>
-    <p class="text-blue-300 qq">取得方式: 新龍骨1F-6F，樓層越低，掉落率高</p>
+    <p class="text-blue-300 qq">取得方式: 龍骨1F-6F，樓層越低，掉落率高</p>
     <div class="flex flex-wrap box">
       <div class="item">
         <img src="../../assets/g01.png" />
