@@ -39,7 +39,7 @@
     <h2 class="text-orange-300 text-2xl font-bold get">✨【黑帝斯強化卷軸（元寶商城）】✨</h2>
     <p>強化 1 次消耗 10,000 天幣</p>
     <br />
-    <h2 class="text-orange-300 text-2xl font-bold get">✨【 秘密（精靈墓穴）】✨</h2>
+    <h2 class="text-orange-300 text-2xl font-bold get">✨【 精靈的秘密（精靈墓穴）】✨</h2>
     <p>強化 1 次消耗 20,000 天幣</p>
 
     <br />
