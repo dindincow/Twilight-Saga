@@ -5,7 +5,8 @@
       <router-link to="/sponsor/sponsorDeclar" :class="[tabIndex === 0 ? 'active' : '']" @click="changeMenu(0)">贊助說明</router-link>
       <router-link to="/sponsor/firstDeposit" :class="[tabIndex === 1 ? 'active' : '']" @click="changeMenu(1)">首儲獎勵</router-link>
       <router-link to="/sponsor/accumulated" :class="[tabIndex === 2 ? 'active' : '']" @click="changeMenu(2)">累計獎勵</router-link>
-      <router-link to="/sponsor/monthlyPlan" :class="[tabIndex === 4 ? 'active' : '']" @click="changeMenu(3)">包月禮包</router-link>
+      <router-link to="/sponsor/monthlyPlan" :class="[tabIndex === 3 ? 'active' : '']" @click="changeMenu(3)">包月禮包</router-link>
+      <router-link to="/sponsor/childrenDay" :class="[tabIndex === 4 ? 'active' : '']" @click="changeMenu(4)">(永久)兒童節活動</router-link>
     </div>
 
     <div class="right">
@@ -23,7 +24,7 @@ import BreadCrumbs from "../../components/BreadCrumbs.vue";
 const route = useRoute();
 const router = useRouter();
 
-const tabTitle = ["贊助說明", "首儲獎勵", "累計獎勵", "包月禮包"];
+const tabTitle = ["贊助說明", "首儲獎勵", "累計獎勵", "包月禮包", "(永久)兒童節活動"];
 const tabIndex = ref(0);
 const title = computed(() => tabTitle[tabIndex.value]);
 
@@ -33,6 +34,7 @@ const pathMap = {
   "/sponsor/firstDeposit": 1,
   "/sponsor/accumulated": 2,
   "/sponsor/monthlyPlan": 3,
+  "/sponsor/childrenDay": 4,
 };
 
 watch(

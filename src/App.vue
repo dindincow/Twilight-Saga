@@ -2,6 +2,7 @@
   <div class="app">
     <a class="box1" target="_blank" href="https://pay.maple-moon.tw/order/249t38q"><img src="./assets/sponser1.png" /></a>
     <div class="box2"><img src="./assets/cscontact.png" /></div>
+    <div class="box3"><img src="./assets/sponser3.png" /></div>
     <Header></Header>
     <router-view></router-view>
   </div>
@@ -14,15 +15,23 @@ import Header from "./components/Header.vue";
 .box1 {
   display: block;
   position: fixed;
-  top: 45%;
+  top: 50%;
   left: 0.5%;
   z-index: 9;
 }
 
 .box2 {
   position: fixed;
-  top: 42%;
+  top: 35%;
   right: 0.5%;
+  z-index: 9;
+}
+
+.box3 {
+  display: block;
+  position: fixed;
+  top: 20%;
+  left: 0.5%;
   z-index: 9;
 }
 </style>

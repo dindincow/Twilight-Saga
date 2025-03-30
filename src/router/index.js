@@ -21,6 +21,7 @@ import Post11 from "../page/announcement/announcementDetail/Post11.vue";
 import Post12 from "../page/announcement/announcementDetail/Post12.vue";
 import Post13 from "../page/announcement/announcementDetail/Post13.vue";
 import Post14 from "../page/announcement/announcementDetail/Post14.vue";
+import Post15 from "../page/announcement/announcementDetail/Post15.vue";
 
 /** 遊戲設定 **/
 import GameSetting from "../page/gameSetting/index.vue";
@@ -64,6 +65,7 @@ import SnapeRing from "../page/armor/SnapeRing.vue"; // 史奈普戒指
 import AncientEquipment from "../page/armor/AncientEquipment.vue"; // 古老裝備
 import Tshirt from "../page/armor/Tshirt.vue"; // 古老裝備
 import PandoraArmor from "../page/armor/Pandora.vue";
+import Shoulder from "../page/armor/Shoulder.vue";
 
 /** 道具介紹 **/
 import Object from "../page/object/index.vue";
@@ -86,6 +88,7 @@ import SponsorDeclar from "../page/sponsor/SponsorDeclar.vue";
 import FirstDeposit from "../page/sponsor/FirstDeposit.vue";
 import Accumulated from "../page/sponsor/Accumulated.vue";
 import MonthlyPlan from "../page/sponsor/MonthlyPlan.vue";
+import ChildrenDay from "../page/sponsor/ChildrenDay.vue";
 
 const routes = [
   { path: "/", component: Home },
@@ -107,6 +110,7 @@ const routes = [
   { path: "/announcement/post12", component: Post12 }, // 開服公告
   { path: "/announcement/post13", component: Post13 }, // 開服公告
   { path: "/announcement/post14", component: Post14 }, // 開服公告
+  { path: "/announcement/post15", component: Post15 }, // 開服公告
 
   /* 免責聲明 */
   { path: "/disclaimer", component: Disclaimer },
@@ -122,6 +126,7 @@ const routes = [
       { path: "firstDeposit", component: FirstDeposit }, // 首儲
       { path: "accumulated", component: Accumulated }, // 累積儲值
       { path: "monthlyPlan", component: MonthlyPlan }, // 包月
+      { path: "childrenDay", component: ChildrenDay }, // 兒童節
     ],
   },
 
@@ -184,6 +189,7 @@ const routes = [
       { path: "snapeRing", component: SnapeRing },
       { path: "ancientEquipment", component: AncientEquipment },
       { path: "pandoraArmor", component: PandoraArmor },
+      { path: "shoulder", component: Shoulder },
     ],
   },
 
