@@ -66,6 +66,8 @@ import AncientEquipment from "../page/armor/AncientEquipment.vue"; // 古老裝�
 import Tshirt from "../page/armor/Tshirt.vue"; // 古老裝備
 import PandoraArmor from "../page/armor/Pandora.vue";
 import Shoulder from "../page/armor/Shoulder.vue";
+import Cloak from "../page/armor/Cloak.vue";
+import Belt from "../page/armor/Belt.vue";
 
 /** 道具介紹 **/
 import Object from "../page/object/index.vue";
@@ -190,6 +192,8 @@ const routes = [
       { path: "ancientEquipment", component: AncientEquipment },
       { path: "pandoraArmor", component: PandoraArmor },
       { path: "shoulder", component: Shoulder },
+      { path: "cloak", component: Cloak },
+      { path: "belt", component: Belt },
     ],
   },
 

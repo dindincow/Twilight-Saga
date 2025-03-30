@@ -1,6 +1,6 @@
 <template>
   <div class="content w-full">
-    <h2 class="text-blue-300 text-xl">閃耀左肩強化卷為強化「閃耀的肩甲」 專用道具</h2>
+    <div class="text-blue-300 title">閃耀左肩強化卷為強化「閃耀的肩甲」 專用道具</div>
     <br />
     <h2 class="text-orange-300 text-2xl font-bold">✨【閃耀左肩強化卷（任務商城）】✨</h2>
     <p>強化 1 次消耗 50,000 天幣</p>
@@ -88,5 +88,9 @@ img {
 
 td:nth-child(1) {
   text-align: center;
+}
+
+.title {
+  font-size: 20px;
 }
 </style>
