@@ -92,6 +92,7 @@ import FirstDeposit from "../page/sponsor/FirstDeposit.vue";
 import Accumulated from "../page/sponsor/Accumulated.vue";
 import MonthlyPlan from "../page/sponsor/MonthlyPlan.vue";
 import ChildrenDay from "../page/sponsor/ChildrenDay.vue";
+import Daysave from "../page/sponsor/Daysave.vue";
 
 const routes = [
   { path: "/", component: Home },
@@ -131,6 +132,7 @@ const routes = [
       { path: "accumulated", component: Accumulated }, // 累積儲值
       { path: "monthlyPlan", component: MonthlyPlan }, // 包月
       { path: "childrenDay", component: ChildrenDay }, // 兒童節
+      { path: "daysave", component: Daysave }, // 兒童節
     ],
   },
 

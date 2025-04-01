@@ -7,6 +7,7 @@
       <router-link to="/sponsor/accumulated" :class="[tabIndex === 2 ? 'active' : '']" @click="changeMenu(2)">累計獎勵</router-link>
       <router-link to="/sponsor/monthlyPlan" :class="[tabIndex === 3 ? 'active' : '']" @click="changeMenu(3)">包月禮包</router-link>
       <router-link to="/sponsor/childrenDay" :class="[tabIndex === 4 ? 'active' : '']" @click="changeMenu(4)">(永久)兒童節活動</router-link>
+      <router-link to="/sponsor/daysave" :class="[tabIndex === 4 ? 'active' : '']" @click="changeMenu(5)">當日儲值獎勵</router-link>
     </div>
 
     <div class="right">
