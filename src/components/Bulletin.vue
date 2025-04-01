@@ -6,6 +6,9 @@
       <router-link to="/announcement/post6">
         <div class="content"><span class="event">永久活動</span>🔥抖音分享案讚留言送好禮！</div>
       </router-link>
+      <router-link to="/announcement/post16">
+        <div class="content"><span class="update">遊戲更新</span> 2025/04/02 更新日誌</div>
+      </router-link>
       <router-link to="/announcement/post15">
         <div class="content"><span class="update">遊戲更新</span>🔥2025/03/31 更新日誌 && 兒童節活動!</div>
       </router-link>
