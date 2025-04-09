@@ -17,6 +17,7 @@
       <router-link to="/gameFeature/SellNpc" :class="[tabIndex === 12 ? 'active' : '']" @click="changeMenu(12)">寄售npc</router-link>
       <router-link to="/gameFeature/SpecialMap" :class="[tabIndex === 13 ? 'active' : '']" @click="changeMenu(13)">特殊地圖</router-link>
       <router-link to="/gameFeature/SkillMake" :class="[tabIndex === 14 ? 'active' : '']" @click="changeMenu(14)">技能製作</router-link>
+      <router-link to="/gameFeature/cutePet" :class="[tabIndex === 15 ? 'active' : '']" @click="changeMenu(15)">特殊寵物</router-link>
     </div>
     <div class="right">
       <h1>{{ title }}</h1>
@@ -49,6 +50,7 @@ const tabTitle = [
   "寄售npc",
   "特殊地圖",
   "技能製作",
+  "特殊寵物",
 ];
 const tabIndex = ref(0);
 const title = computed(() => tabTitle[tabIndex.value]);
@@ -70,6 +72,7 @@ const pathMap = {
   "/gameFeature/SellNpc": 12,
   "/gameFeature/SpecialMap": 13,
   "/gameFeature/SkillMake": 14,
+  "/gameFeature/cutePet": 15,
 };
 
 watch(

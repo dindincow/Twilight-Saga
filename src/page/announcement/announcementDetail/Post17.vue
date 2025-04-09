@@ -1,8 +1,8 @@
 <template>
   <div class="announcement-detail-page">
     <div class="title">
-      <h1>2025/04/05 慶開服!新福掉寶2倍</h1>
-      <p>2025/04/05</p>
+      <h1>2025/04/12 慶開服!新福掉寶2倍</h1>
+      <p>2025/04/12</p>
     </div>
     <div class="content">
       <p>1. 慶開服!新福掉寶2倍</p>
