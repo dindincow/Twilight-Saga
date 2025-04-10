@@ -4,9 +4,10 @@
     <div class="left">
       <router-link to="/weapon/normalWeapon" :class="[tabIndex === 0 ? 'active' : '']" @click="changeMenu(0)">一般武器</router-link>
       <router-link to="/weapon/pandora" :class="[tabIndex === 1 ? 'active' : '']" @click="changeMenu(1)">潘朵拉武器</router-link>
-      <router-link to="/weapon/ancientWeapon" :class="[tabIndex === 2 ? 'active' : '']" @click="changeMenu(1)">古老武器</router-link>
+      <router-link to="/weapon/ancientWeapon" :class="[tabIndex === 2 ? 'active' : '']" @click="changeMenu(2)">古老武器</router-link>
       <router-link to="/weapon/darkWeapon" :class="[tabIndex === 3 ? 'active' : '']" @click="changeMenu(3)">暗黑武器</router-link>
       <router-link to="/weapon/dragonShatter" :class="[tabIndex === 4 ? 'active' : '']" @click="changeMenu(4)">碎龍武器</router-link>
+      <router-link to="/weapon/dibis" :class="[tabIndex === 5 ? 'active' : '']" @click="changeMenu(5)">底比斯武器</router-link>
     </div>
 
     <div class="right">
@@ -24,7 +25,7 @@ import BreadCrumbs from "../../components/BreadCrumbs.vue";
 const route = useRoute();
 const router = useRouter();
 
-const tabTitle = ["一般武器", "潘朵拉武器", "古老武器", "暗黑武器", "碎龍武器"];
+const tabTitle = ["一般武器", "潘朵拉武器", "古老武器", "暗黑武器", "碎龍武器", "底比斯武器"];
 const tabIndex = ref(0);
 const title = computed(() => tabTitle[tabIndex.value]);
 
@@ -35,6 +36,7 @@ const pathMap = {
   "/weapon/ancientWeapon": 2,
   "/weapon/darkWeapon": 3,
   "/weapon/dragonShatter": 4,
+  "/weapon/dibis": 5,
 };
 
 watch(

@@ -58,6 +58,7 @@ import AncientWeapon from "../page/weapon/AncientWeapon.vue"; // 古代武器
 import DarkWeapon from "../page/weapon/DarkWeapon.vue"; // 暗黑武器
 import DragonShatter from "../page/weapon/DragonShatter.vue"; // 碎龍武器
 import Pandora from "../page/weapon/Pandora.vue"; // 潘朵拉武器
+import Dibis from "../page/weapon/Dibis.vue"; // 潘朵拉武器
 
 /** 防具介紹 **/
 import Armor from "../page/armor/index.vue";
@@ -185,6 +186,7 @@ const routes = [
       { path: "darkWeapon", component: DarkWeapon },
       { path: "dragonShatter", component: DragonShatter },
       { path: "pandora", component: Pandora },
+      { path: "dibis", component: Dibis },
     ],
   },
 
