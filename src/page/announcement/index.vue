@@ -35,7 +35,7 @@
         <div class="col">2025/03/19</div>
       </div>
       <div class="row" @click="gotoDetail('/announcement/post17')">
-        <div class="col"><span class="announcement">開服公告</span> - 2025/04/12 慶開服!新福掉寶2倍</div>
+        <div class="col"><span class="announcement">開服公告</span> - 2025/04/12 慶開2服!好禮相送!</div>
         <div class="col">2025/04/12</div>
       </div>
       <div class="row" @click="gotoDetail('/announcement/post14')">

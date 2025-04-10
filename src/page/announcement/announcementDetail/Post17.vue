@@ -1,11 +1,13 @@
 <template>
   <div class="announcement-detail-page">
     <div class="title">
-      <h1>2025/04/12 慶開服!新福掉寶2倍</h1>
+      <h1>2025/04/12 慶開2服!好禮相送!</h1>
       <p>2025/04/12</p>
     </div>
     <div class="content">
-      <p>1. 慶開服!新福掉寶2倍</p>
+      <h2 class="text-red">暮光之城2服新開服！</h2>
+      <h2>讓你開局就不落人後！一旦入場，就送3000綁鑽與過3潘朵拉防具，讓你輕鬆起步、戰力飆升！</h2>
+      <h2>限定3之帳號，二服新玩家!!</h2>
     </div>
   </div>
 </template>

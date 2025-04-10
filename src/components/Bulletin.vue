@@ -7,7 +7,7 @@
         <div class="content"><span class="event">永久活動</span>🔥抖音分享案讚留言送好禮！</div>
       </router-link>
       <router-link to="/announcement/post17">
-        <div class="content"><span class="announcement">開服公告</span> 2025/04/12 慶開服!新服調寶2倍</div>
+        <div class="content"><span class="announcement">開服公告</span> 2025/04/12 慶開2服!好禮相送!</div>
       </router-link>
       <router-link to="/announcement/post16">
         <div class="content"><span class="update">遊戲更新</span> 2025/04/02 更新日誌</div>
