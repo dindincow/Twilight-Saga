@@ -23,6 +23,7 @@
     </h3>
     <br />
     <p class="text-blue-300">以下為 "神奇寵物蛋" 可抽到的【寵物】跟【金蘋果】★</p>
+    <p class="text-blue-300">攜帶一隻寵物需8點魅力</p>
 
     <table class="w-full">
       <thead>
