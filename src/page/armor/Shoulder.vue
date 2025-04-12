@@ -5,7 +5,7 @@
     <h2 class="text-orange-300 text-2xl font-bold">✨【閃耀左肩強化卷（任務商城）】✨</h2>
     <p>強化 1 次消耗 50,000 天幣</p>
 
-    <p class="text-green-300">強化失敗部會消失，也部會退皆</p>
+    <p class="text-green-300">強化失敗不會消失，也部會退皆</p>
     <br />
     <table class="w-full">
       <thead>

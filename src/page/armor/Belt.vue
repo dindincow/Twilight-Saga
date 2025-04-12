@@ -11,7 +11,7 @@
     <br />
     <h2 class="text-orange-300 text-2xl font-bold get">✨【 光之加護轉換石（遺忘之島）】✨</h2>
     <p>強化 1 次消耗 20,000 天幣</p>
-    <p class="text-green-300">2者強化，失敗部會消失，也部會退皆</p>
+    <p class="text-green-300">2者強化，失敗不會消失，也部會退皆</p>
     <br />
     <table class="w-full">
       <thead>
@@ -54,7 +54,7 @@
     <br />
     <h2 class="text-orange-300 text-2xl font-bold get">✨【 飾品寶石強化石（奧塔70f-100f）】✨</h2>
     <p>強化 1 次消耗 20,000 天幣</p>
-    <p class="text-green-300">2者強化，失敗部會消失，也部會退皆</p>
+    <p class="text-green-300">2者強化，失敗不會消失，也部會退皆</p>
 
     <br />
     <table class="w-full">

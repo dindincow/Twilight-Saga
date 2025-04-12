@@ -11,7 +11,7 @@
     <p>強化 1 次消耗 20,000 天幣</p>
     <p>強化機率為 1/3（33.3%）</p>
     <p>樓層越高掉落率越高</p>
-    <p class="text-green-300">2者強化，失敗部會消失，也部會退皆</p>
+    <p class="text-green-300">2者強化，失敗不會消失，也部會退皆</p>
     <br />
     <table class="w-full">
       <thead>
@@ -56,7 +56,7 @@
     <p>強化 1 次消耗 30,000 天幣</p>
     <p>強化機率為較低</p>
 
-    <p class="text-green-300">2者強化，失敗部會消失，也部會退皆</p>
+    <p class="text-green-300">2者強化，失敗不會消失，也部會退皆</p>
     <br />
     <table class="w-full">
       <thead>

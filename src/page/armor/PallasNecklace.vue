@@ -11,7 +11,7 @@
     <p>強化 1 次消耗 20,000 天幣</p>
     <p>強化機率為 1/3（33.3%）</p>
     <p>樓層越高掉落率越高</p>
-    <p class="text-green-300">2者強化，失敗部會消失，也部會退皆</p>
+    <p class="text-green-300">2者強化，失敗不會消失，也部會退皆</p>
     <br />
     <table class="w-full">
       <thead>
@@ -48,6 +48,7 @@
         >升級為 1階月亮項鍊</span
       >，開啟全新強化階段！📢若原本帕拉斯項鍊為「祝福」狀態，升階後的飾品將保留祝福屬性，讓您的裝備更具價值！
     </h2>
+    <p class="text-green-300 text-xl">ps.當5階後，5%機率施展，月光氣息，傷害50，無視傷害減免，跟魔法防禦</p>
     <br />
     <h2 class="text-orange-300 text-2xl font-bold">✨【星星月亮強化石（元寶商城）】✨</h2>
     <p>強化1次消耗 15000 天幣</p>
@@ -55,7 +56,7 @@
     <h2 class="text-orange-300 text-2xl font-bold">✨【 星星月亮碎片-底比斯沙漠取得）】✨</h2>
     <p>強化 1 次消耗 30,000 天幣</p>
     <p>強化機率為較低</p>
-    <p class="text-green-300">2者強化，失敗部會消失，也部會退皆</p>
+    <p class="text-green-300">2者強化，失敗不會消失，也部會退皆</p>
     <br />
     <table class="w-full">
       <thead>
