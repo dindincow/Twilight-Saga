@@ -1,4 +1,5 @@
 <template>
+  <h2 class="text-blue-300 text-xl">碎龍系列為魔法武器，魔武發動率固8%，不吃力敏智，固定傷害120-150</h2>
   <div class="content flex flex-wrap">
     <img src="../../assets/ss1.png" />
     <img src="../../assets/ss2.png" />
@@ -24,5 +25,8 @@ img {
   display: block;
   padding: 5px;
   border: 5px solid #ccc;
+}
+h2 {
+  margin: 20px 0 10px 0;
 }
 </style>

@@ -11,6 +11,9 @@
       <router-link to="/armor/shoulder" :class="[tabIndex === 6 ? 'active' : '']" @click="changeMenu(6)">閃耀的肩甲</router-link>
       <router-link to="/armor/cloak" :class="[tabIndex === 7 ? 'active' : '']" @click="changeMenu(7)">斗篷介紹</router-link>
       <router-link to="/armor/belt" :class="[tabIndex === 8 ? 'active' : '']" @click="changeMenu(8)">腰帶介紹</router-link>
+      <router-link to="/armor/helmet" :class="[tabIndex === 9 ? 'active' : '']" @click="changeMenu(9)">頭盔介紹</router-link>
+      <router-link to="/armor/gloves" :class="[tabIndex === 10 ? 'active' : '']" @click="changeMenu(10)">手套介紹</router-link>
+      <router-link to="/armor/greaves" :class="[tabIndex === 11 ? 'active' : '']" @click="changeMenu(11)">脛甲介紹</router-link>
     </div>
 
     <div class="right">
@@ -28,7 +31,20 @@ import BreadCrumbs from "../../components/BreadCrumbs.vue";
 const route = useRoute();
 const router = useRouter();
 
-const tabTitle = ["耳環介紹", "項鍊介紹", "史奈普戒指", "古老的裝備", "內衣介紹", "潘朵拉防具", "閃耀的肩甲", "斗篷介紹", "腰帶介紹"];
+const tabTitle = [
+  "耳環介紹",
+  "項鍊介紹",
+  "史奈普戒指",
+  "古老的裝備",
+  "內衣介紹",
+  "潘朵拉防具",
+  "閃耀的肩甲",
+  "斗篷介紹",
+  "腰帶介紹",
+  "頭盔介紹",
+  "手套介紹",
+  "脛甲介紹",
+];
 const tabIndex = ref(0);
 const title = computed(() => tabTitle[tabIndex.value]);
 
@@ -43,6 +59,9 @@ const pathMap = {
   "/armor/shoulder": 6,
   "/armor/cloak": 7,
   "/armor/belt": 8,
+  "/armor/helmet": 9,
+  "/armor/gloves": 10,
+  "/armor/greaves": 11,
 };
 
 watch(

@@ -24,6 +24,7 @@ import Post14 from "../page/announcement/announcementDetail/Post14.vue";
 import Post15 from "../page/announcement/announcementDetail/Post15.vue";
 import Post16 from "../page/announcement/announcementDetail/Post16.vue";
 import Post17 from "../page/announcement/announcementDetail/Post17.vue";
+import Post18 from "../page/announcement/announcementDetail/Post18.vue";
 
 /** 遊戲設定 **/
 import GameSetting from "../page/gameSetting/index.vue";
@@ -72,6 +73,9 @@ import PandoraArmor from "../page/armor/Pandora.vue";
 import Shoulder from "../page/armor/Shoulder.vue";
 import Cloak from "../page/armor/Cloak.vue";
 import Belt from "../page/armor/Belt.vue";
+import Helmet from "../page/armor/Helmet.vue";
+import Gloves from "../page/armor/Gloves.vue";
+import Greaves from "../page/armor/Greaves.vue";
 
 /** 道具介紹 **/
 import Object from "../page/object/index.vue";
@@ -120,6 +124,7 @@ const routes = [
   { path: "/announcement/post15", component: Post15 }, // 開服公告
   { path: "/announcement/post16", component: Post16 }, // 開服公告
   { path: "/announcement/post17", component: Post17 }, // 開服公告
+  { path: "/announcement/post18", component: Post18 }, // 開服公告
 
   /* 免責聲明 */
   { path: "/disclaimer", component: Disclaimer },
@@ -204,6 +209,9 @@ const routes = [
       { path: "shoulder", component: Shoulder },
       { path: "cloak", component: Cloak },
       { path: "belt", component: Belt },
+      { path: "helmet", component: Helmet },
+      { path: "gloves", component: Gloves },
+      { path: "greaves", component: Greaves },
     ],
   },
 
