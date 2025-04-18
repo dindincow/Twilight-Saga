@@ -25,6 +25,7 @@ import Post15 from "../page/announcement/announcementDetail/Post15.vue";
 import Post16 from "../page/announcement/announcementDetail/Post16.vue";
 import Post17 from "../page/announcement/announcementDetail/Post17.vue";
 import Post18 from "../page/announcement/announcementDetail/Post18.vue";
+import Post19 from "../page/announcement/announcementDetail/Post19.vue";
 
 /** 遊戲設定 **/
 import GameSetting from "../page/gameSetting/index.vue";
@@ -88,6 +89,7 @@ import MakePanacea from "../page/object/MakePanacea.vue"; // 存白萬能藥
 import BossRadar from "../page/object/BossRadar.vue"; // BOSS 雷達
 import OnlineEmblem from "../page/object/OnlineEmblem.vue"; // 在線勳章
 import TShirtBox from "../page/object/TShirtBox.vue"; // 獵影之痕寶箱
+import DibisObject from "../page/object/DibisObject.vue"; // 底比斯勳章
 
 /** 檔案下載 **/
 import Dowload from "../page/dowload/index.vue";
@@ -125,6 +127,7 @@ const routes = [
   { path: "/announcement/post16", component: Post16 }, // 開服公告
   { path: "/announcement/post17", component: Post17 }, // 開服公告
   { path: "/announcement/post18", component: Post18 }, // 開服公告
+  { path: "/announcement/post19", component: Post19 }, // 開服公告
 
   /* 免責聲明 */
   { path: "/disclaimer", component: Disclaimer },
@@ -228,7 +231,7 @@ const routes = [
       { path: "makePanacea", component: MakePanacea },
       { path: "bossRadar", component: BossRadar },
       { path: "onlineEmblem", component: OnlineEmblem },
-      // { path: "tShirtBox", component: TShirtBox },
+      { path: "dibisObject", component: DibisObject },
     ],
   },
 

@@ -34,6 +34,10 @@
         <div class="col"><span class="event">永久活動</span> - 🔥 抖音分享案讚留言送好禮！</div>
         <div class="col">2025/03/19</div>
       </div>
+      <div class="row" @click="gotoDetail('/announcement/post19')">
+        <div class="col"><span class="update">遊戲更新</span> - 2025/04/19 更新日誌!</div>
+        <div class="col">2025/04/19</div>
+      </div>
       <div class="row" @click="gotoDetail('/announcement/post17')">
         <div class="col"><span class="announcement">開服公告</span> - 2025/04/12 慶開2服!好禮相送!</div>
         <div class="col">2025/04/12</div>
