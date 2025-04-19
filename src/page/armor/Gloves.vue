@@ -1,5 +1,6 @@
 <template>
   <div class="content w-full">
+    <h2 class="text-blue-300 text-xl title-desc">木乃伊繃帶獲取地點 : 底比斯1F/2F/3F</h2>
     <h2 class="text-blue-300 text-xl title-desc">當手套每突破 1點安定值，將根據其職業類型獲得以下屬性加成：</h2>
     <br />
     <div class="text-red-300">➤ 近戰類型 : 近距離命中 +1, 近距離攻擊 +1</div>

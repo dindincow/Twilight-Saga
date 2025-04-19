@@ -6,7 +6,7 @@
   <h2 class="text-orange-300 text-2xl font-bold buy">✨【進化理論（元寶商城）】✨</h2>
   <p>強化 1 次消耗 15,000 天幣</p>
   <br />
-  <h2 class="text-orange-300 text-2xl font-bold buy">✨【 進化碎片（底比斯 2F-3F）】✨</h2>
+  <h2 class="text-orange-300 text-2xl font-bold buy">✨【 進化碎片（底比斯 1F/2F/3F）】✨</h2>
   <p>強化 1 次消耗 30,000 天幣</p>
   <p>強化機率為較低</p>
   <p>樓層越高掉落率越高</p>

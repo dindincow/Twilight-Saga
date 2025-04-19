@@ -52,6 +52,7 @@ import SellNpc from "../page/gameFeature/SellNpc.vue"; // 寄賣npc
 import SpecialMap from "../page/gameFeature/SpecialMap.vue"; // 特殊地圖
 import SkillMake from "../page/gameFeature/SkillMake.vue"; // 技能製作
 import CutePet from "../page/gameFeature/CutePet.vue"; // 特殊動物
+import SpecialBox from "../page/gameFeature/SpecialBox.vue"; // 特級寶箱
 
 /** 武器介紹 **/
 import Weapon from "../page/weapon/index.vue";
@@ -181,6 +182,7 @@ const routes = [
       { path: "specialMap", component: SpecialMap },
       { path: "skillMake", component: SkillMake },
       { path: "cutePet", component: CutePet },
+      { path: "specialBox", component: SpecialBox },
     ],
   },
 

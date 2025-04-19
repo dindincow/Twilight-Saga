@@ -18,6 +18,7 @@
       <router-link to="/gameFeature/SpecialMap" :class="[tabIndex === 13 ? 'active' : '']" @click="changeMenu(13)">特殊地圖</router-link>
       <router-link to="/gameFeature/SkillMake" :class="[tabIndex === 14 ? 'active' : '']" @click="changeMenu(14)">技能製作</router-link>
       <router-link to="/gameFeature/cutePet" :class="[tabIndex === 15 ? 'active' : '']" @click="changeMenu(15)">特殊寵物</router-link>
+      <router-link to="/gameFeature/specialBox" :class="[tabIndex === 16 ? 'active' : '']" @click="changeMenu(16)">特級寶箱</router-link>
     </div>
     <div class="right">
       <h1>{{ title }}</h1>
@@ -51,6 +52,7 @@ const tabTitle = [
   "特殊地圖",
   "技能製作",
   "特殊寵物",
+  "特級寶箱",
 ];
 const tabIndex = ref(0);
 const title = computed(() => tabTitle[tabIndex.value]);
@@ -73,6 +75,7 @@ const pathMap = {
   "/gameFeature/SpecialMap": 13,
   "/gameFeature/SkillMake": 14,
   "/gameFeature/cutePet": 15,
+  "/gameFeature/specialBox": 16,
 };
 
 watch(
