@@ -1,6 +1,7 @@
 <template>
   <div class="content w-full">
     <div class="text-blue-300 title">閃耀左肩強化卷為強化「閃耀的肩甲」 專用道具</div>
+    <h2 class="text-blue-300 text-xl title-desc">可用防具祝福進行強化，祝福能力: hp+100，減傷+3</h2>
     <br />
     <h2 class="text-orange-300 text-2xl font-bold">✨【閃耀左肩強化卷（任務商城）】✨</h2>
     <p>強化 1 次消耗 50,000 天幣</p>
