@@ -14,6 +14,7 @@
       <router-link to="/armor/helmet" :class="[tabIndex === 9 ? 'active' : '']" @click="changeMenu(9)">頭盔介紹</router-link>
       <router-link to="/armor/gloves" :class="[tabIndex === 10 ? 'active' : '']" @click="changeMenu(10)">手套介紹</router-link>
       <router-link to="/armor/greaves" :class="[tabIndex === 11 ? 'active' : '']" @click="changeMenu(11)">脛甲介紹</router-link>
+      <router-link to="/armor/shoes" :class="[tabIndex === 12 ? 'active' : '']" @click="changeMenu(11)">靴子介紹</router-link>
     </div>
 
     <div class="right">
@@ -44,6 +45,7 @@ const tabTitle = [
   "頭盔介紹",
   "手套介紹",
   "脛甲介紹",
+  "靴子介紹",
 ];
 const tabIndex = ref(0);
 const title = computed(() => tabTitle[tabIndex.value]);
@@ -62,6 +64,7 @@ const pathMap = {
   "/armor/helmet": 9,
   "/armor/gloves": 10,
   "/armor/greaves": 11,
+  "/armor/shoes": 12,
 };
 
 watch(

@@ -78,6 +78,7 @@ import Belt from "../page/armor/Belt.vue";
 import Helmet from "../page/armor/Helmet.vue";
 import Gloves from "../page/armor/Gloves.vue";
 import Greaves from "../page/armor/Greaves.vue";
+import Shoes from "../page/armor/Shoes.vue";
 
 /** 道具介紹 **/
 import Object from "../page/object/index.vue";
@@ -217,6 +218,7 @@ const routes = [
       { path: "helmet", component: Helmet },
       { path: "gloves", component: Gloves },
       { path: "greaves", component: Greaves },
+      { path: "shoes", component: Shoes },
     ],
   },
 
