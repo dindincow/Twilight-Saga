@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <a class="box1" target="_blank" href="https://pay.maple-moon.tw/order/249t38q"><img src="./assets/sponser1.png" /></a>
-    <a class="box4" target="_blank" href="https://pay.maple-moon.tw/order/%E4%BA%8C%E6%9C%8D"><img src="./assets/sponser2.png" /></a>
+    <!-- <a class="box4" target="_blank" href="https://pay.maple-moon.tw/order/%E4%BA%8C%E6%9C%8D"><img src="./assets/sponser2.png" /></a> -->
     <div class="box2"><img src="./assets/cscontact.png" /></div>
     <div class="box3"><img src="./assets/sponser3.png" /></div>
     <img src="./assets/logo1.png" class="hide" />

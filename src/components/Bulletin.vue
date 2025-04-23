@@ -9,9 +9,9 @@
       <router-link to="/announcement/post19">
         <div class="content"><span class="update">遊戲更新</span>🔥2025/04/19 更新日誌</div>
       </router-link>
-      <router-link to="/announcement/post17">
+      <!-- <router-link to="/announcement/post17">
         <div class="content"><span class="announcement">開服公告</span> 2025/04/12 慶開2服!好禮相送!</div>
-      </router-link>
+      </router-link> -->
       <router-link to="/announcement/post18">
         <div class="content"><span class="update">遊戲更新</span>🔥2025/04/12 更新日誌</div>
       </router-link>

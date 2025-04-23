@@ -38,10 +38,10 @@
         <div class="col"><span class="update">遊戲更新</span> - 2025/04/19 更新日誌!</div>
         <div class="col">2025/04/19</div>
       </div>
-      <div class="row" @click="gotoDetail('/announcement/post17')">
+      <!-- <div class="row" @click="gotoDetail('/announcement/post17')">
         <div class="col"><span class="announcement">開服公告</span> - 2025/04/12 慶開2服!好禮相送!</div>
         <div class="col">2025/04/12</div>
-      </div>
+      </div> -->
       <div class="row" @click="gotoDetail('/announcement/post18')">
         <div class="col"><span class="update">遊戲更新</span> - 2025/04/12 更新日誌!</div>
         <div class="col">2025/04/12</div>
