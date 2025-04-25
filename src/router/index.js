@@ -53,6 +53,8 @@ import SpecialMap from "../page/gameFeature/SpecialMap.vue"; // 特殊地圖
 import SkillMake from "../page/gameFeature/SkillMake.vue"; // 技能製作
 import CutePet from "../page/gameFeature/CutePet.vue"; // 特殊動物
 import SpecialBox from "../page/gameFeature/SpecialBox.vue"; // 特級寶箱
+import Collection from "../page/gameFeature/Collection.vue"; // 特級寶箱
+import BossCollection from "../page/gameFeature/BossCollection.vue"; // 特級寶箱
 
 /** 武器介紹 **/
 import Weapon from "../page/weapon/index.vue";
@@ -104,6 +106,7 @@ import Accumulated from "../page/sponsor/Accumulated.vue";
 import MonthlyPlan from "../page/sponsor/MonthlyPlan.vue";
 import ChildrenDay from "../page/sponsor/ChildrenDay.vue";
 import Daysave from "../page/sponsor/Daysave.vue";
+import CollectionGuide from "../page/sponsor/CollectionGuide.vue";
 
 const routes = [
   { path: "/", component: Home },
@@ -147,6 +150,7 @@ const routes = [
       { path: "monthlyPlan", component: MonthlyPlan }, // 包月
       { path: "childrenDay", component: ChildrenDay }, // 兒童節
       { path: "daysave", component: Daysave }, // 兒童節
+      { path: "collectionGuide", component: CollectionGuide }, // 兒童節
     ],
   },
 
@@ -184,6 +188,8 @@ const routes = [
       { path: "skillMake", component: SkillMake },
       { path: "cutePet", component: CutePet },
       { path: "specialBox", component: SpecialBox },
+      { path: "collection", component: Collection },
+      { path: "bossCollection", component: BossCollection },
     ],
   },
 

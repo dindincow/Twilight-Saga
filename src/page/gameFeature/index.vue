@@ -19,7 +19,10 @@
       <router-link to="/gameFeature/SkillMake" :class="[tabIndex === 14 ? 'active' : '']" @click="changeMenu(14)">技能製作</router-link>
       <router-link to="/gameFeature/cutePet" :class="[tabIndex === 15 ? 'active' : '']" @click="changeMenu(15)">特殊寵物</router-link>
       <router-link to="/gameFeature/specialBox" :class="[tabIndex === 16 ? 'active' : '']" @click="changeMenu(16)">特級寶箱</router-link>
+      <router-link to="/gameFeature/collection" :class="[tabIndex === 17 ? 'active' : '']" @click="changeMenu(17)">蒐藏系統</router-link>
+      <router-link to="/gameFeature/bossCollection" :class="[tabIndex === 18 ? 'active' : '']" @click="changeMenu(18)">Boss蒐藏系統</router-link>
     </div>
+
     <div class="right">
       <h1>{{ title }}</h1>
       <hr />
@@ -53,6 +56,8 @@ const tabTitle = [
   "技能製作",
   "特殊寵物",
   "特級寶箱",
+  "蒐藏系統",
+  "Boss蒐藏系統",
 ];
 const tabIndex = ref(0);
 const title = computed(() => tabTitle[tabIndex.value]);
@@ -76,6 +81,8 @@ const pathMap = {
   "/gameFeature/SkillMake": 14,
   "/gameFeature/cutePet": 15,
   "/gameFeature/specialBox": 16,
+  "/gameFeature/collection": 17,
+  "/gameFeature/bossCollection": 18,
 };
 
 watch(
